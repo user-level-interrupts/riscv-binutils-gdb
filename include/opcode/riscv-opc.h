@@ -575,6 +575,9 @@
 #define CSR_UCAUSE 0x42
 #define CSR_UTVAL 0x43
 #define CSR_UIP 0x44
+// start ULI
+#define CSR_PID 0x45
+// end ULI
 #define CSR_FFLAGS 0x1
 #define CSR_FRM 0x2
 #define CSR_FCSR 0x3
@@ -1116,6 +1119,9 @@ DECLARE_CSR(uepc, CSR_UEPC)
 DECLARE_CSR(ucause, CSR_UCAUSE)
 DECLARE_CSR(utval, CSR_UTVAL)
 DECLARE_CSR(uip, CSR_UIP)
+// start ULI
+DECLARE_CSR(pid, CSR_PID)
+// end ULI
 DECLARE_CSR(fflags, CSR_FFLAGS)
 DECLARE_CSR(frm, CSR_FRM)
 DECLARE_CSR(fcsr, CSR_FCSR)
